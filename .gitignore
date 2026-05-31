@@ -3,10 +3,6 @@ node_modules/
 .pnp
 .pnp.js
 
-# Build de produção
-dist/
-build/
-
 # Variáveis de ambiente
 .env
 .env.local
