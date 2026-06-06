@@ -81,13 +81,13 @@ const InstalacaoPia = () => {
               Na <strong>JH Soluções</strong>, nós garantimos uma instalação técnica, limpa e extremamente segura. Fixamos sua pia com os insumos corretos para suportar o uso diário, o peso de eletrodomésticos e o impacto constante de panelas e louças.
             </p>
 
-            {/* Selo de Garantia e CTA */}
+            {/* Selo de Qualidade e CTA */}
             <div style={{ display: 'inline-block', padding: '24px', backgroundColor: 'var(--color-bg-surface)', border: '1px solid var(--color-primary-gold)', marginBottom: '16px', maxWidth: '480px', textAlign: 'center' }}>
               <h4 style={{ color: 'var(--color-primary-gold)', marginBottom: '8px', fontSize: '1.1rem', fontWeight: 'bold' }}>
-                🛡️ Garantia de 1 Ano no Serviço
+                🛡️ Instalação Profissional & Segura
               </h4>
               <p style={{ fontSize: '0.85rem', color: 'var(--color-text-dim)', margin: '0 0 16px 0' }}>
-                Oferecemos cobertura total e garantia contra vazamentos e descolamentos das bancadas instaladas por nossa equipe.
+                Nossa equipe utiliza fixações adequadas e vedação completa contra infiltrações para garantir a durabilidade da sua bancada.
               </p>
               <a 
                 href="https://api.whatsapp.com/send?phone=5511961810709&text=Olá,%20gostaria%20de%20solicitar%20um%20Orçamento%20de%20Instalação%20de%20Pia." 
@@ -296,7 +296,7 @@ const InstalacaoPia = () => {
                 </li>
                 <li>
                   <strong style={{ color: 'var(--color-text-white)' }}>Onde encontrar um instalador de pia de mármore na Zona Norte de São Paulo?</strong><br />
-                  A JH Soluções atende com equipe própria especializada em toda a Zona Norte de São Paulo e região metropolitana, fornecendo garantia de 1 ano contra descolamentos ou vazamentos.
+                  A JH Soluções atende com equipe própria especializada em toda a Zona Norte de São Paulo e região metropolitana, assegurando máxima precisão e vedação contra vazamentos ou descolamentos.
                 </li>
               </ul>
             </div>

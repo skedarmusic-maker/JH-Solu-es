@@ -247,7 +247,7 @@ const Home = () => {
           >
             {/* Item 1 */}
             <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.40 (1).jpeg" alt="Lavatório esculpido em mármore" />
+              <img src="/images/WhatsApp Image 2026-05-31 at 19.01.54.jpeg" alt="Trabalho de marmoraria recente JH Soluções" />
               <div className="portfolio-item-info">
                 <span className="portfolio-item-tag">Instalação / Acabamento</span>
                 <h4 className="portfolio-item-title">Cuba Esculpida e Lavatório</h4>
@@ -256,7 +256,7 @@ const Home = () => {
 
             {/* Item 2 */}
             <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.40 (4).jpeg" alt="Bancada de cozinha com corte para cooktop" />
+              <img src="/images/WhatsApp Image 2026-05-31 at 19.03.19.jpeg" alt="Bancada de cozinha com corte e instalação de cooktop" />
               <div className="portfolio-item-info">
                 <span className="portfolio-item-tag">Corte sob Medida / Cooktop</span>
                 <h4 className="portfolio-item-title">Corte de Cooktop e Cuba</h4>
@@ -265,10 +265,10 @@ const Home = () => {
 
             {/* Item 3 */}
             <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.41 (2).jpeg" alt="Pia com acabamento polido" />
+              <img src="/images/WhatsApp Image 2026-05-31 at 19.04.29.jpeg" alt="Pia e balcão com acabamento polido" />
               <div className="portfolio-item-info">
                 <span className="portfolio-item-tag">Reparos e Ajustes</span>
-                <h4 class="portfolio-item-title">Alinhamento de Pia Descascada</h4>
+                <h4 className="portfolio-item-title">Alinhamento de Pia Descascada</h4>
               </div>
             </motion.div>
 

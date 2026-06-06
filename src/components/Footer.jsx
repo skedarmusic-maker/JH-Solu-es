@@ -73,7 +73,8 @@ const Footer = () => {
               <i className="fa-solid fa-clock"></i>
               <div>
                 <strong>Horário:</strong><br />
-                Segunda a Sábado, das 08h às 18h
+                Segunda a Sexta, das 08h às 17h<br />
+                Sábado, das 08h às 13h
               </div>
             </li>
           </ul>

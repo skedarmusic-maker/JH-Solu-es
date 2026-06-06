@@ -137,8 +137,12 @@ const Sobre = () => {
                   <h3 style={{ fontSize: '1.25rem', marginBottom: '12px', fontFamily: 'var(--font-body)', fontWeight: 600 }}>
                     Atendimento Direto com o Profissional
                   </h3>
-                  <p style={{ fontSize: '0.95rem', color: 'var(--color-text-dim)' }}>
-                    Sem mal-entendidos gerados por vendedores ou intermediários. Você agenda, tira dúvidas e alinha as especificidades técnicas da sua furação ou corte diretamente com o profissional especializado que fará o serviço.
+                  <p style={{ fontSize: '0.95rem', color: 'var(--color-text-dim)', lineHeight: '1.6' }}>
+                    Cada cliente recebe atenção exclusiva para garantir um atendimento eficiente e sem complicações.
+                    <br /><br />
+                    Analisamos sua necessidade, esclarecemos dúvidas e acompanhamos todo o processo para que você tenha segurança e tranquilidade do orçamento à execução do serviço.
+                    <br /><br />
+                    Seu projeto tratado com atenção, profissionalismo e compromisso.
                   </p>
                 </div>
               </div>
@@ -171,51 +175,6 @@ const Sobre = () => {
                     Bordas polidas sem dentes, juntas secas perfeitamente niveladas, rejuntamento da cor exata da pedra e colagens estruturais hiper-resistentes. Cuidado cirúrgico em cada canto.
                   </p>
                 </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* GALERIA DE BASTIDORES / DETALHE DE PRECISÃO */}
-      <section className="section-padding" style={{ backgroundColor: 'var(--color-bg-deep)' }} id="galleryBehindSection">
-        <div className="container">
-          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
-            <span className="label-uppercase">Bastidores do Trabalho</span>
-            <h2 style={{ fontSize: '2.5rem', marginTop: '12px', fontFamily: 'var(--font-title)' }}>A Perfeição nos Detalhes</h2>
-          </div>
-
-          <motion.div 
-            className="portfolio-grid"
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-          >
-            {/* Bastidor 1 */}
-            <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.40 (2).jpeg" alt="Profissional executando corte preciso de mármore" />
-              <div className="portfolio-item-info">
-                <span className="portfolio-item-tag">Processo</span>
-                <h4 className="portfolio-item-title">Corte Técnico no Local</h4>
-              </div>
-            </motion.div>
-
-            {/* Bastidor 2 */}
-            <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.41.jpeg" alt="Furo técnico de precisão para torneira" />
-              <div className="portfolio-item-info">
-                <span className="portfolio-item-tag">Processo</span>
-                <h4 className="portfolio-item-title">Furação Técnica sob Medida</h4>
-              </div>
-            </motion.div>
-
-            {/* Bastidor 3 */}
-            <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.42.jpeg" alt="Encaixe de pedra sob medida" />
-              <div className="portfolio-item-info">
-                <span className="portfolio-item-tag">Processo</span>
-                <h4 className="portfolio-item-title">Instalação e Ajuste de Nível</h4>
               </div>
             </motion.div>
           </motion.div>

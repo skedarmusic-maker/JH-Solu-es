@@ -165,7 +165,11 @@ const Contato = () => {
                   <div className="contact-info-icon"><Clock size={24} /></div>
                   <div className="contact-info-details">
                     <h4>Horário de Funcionamento</h4>
-                    <p>Segunda a Sábado — das 08h às 18h</p>
+                     <p>
+                      Segunda a Sexta — das 08h às 17h
+                      <br />
+                      Sábado — das 08h às 13h
+                     </p>
                   </div>
                 </div>
               </div>

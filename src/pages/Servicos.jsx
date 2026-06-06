@@ -62,11 +62,11 @@ const Servicos = () => {
 
   // Base de imagens do portfólio completo
   const portfolioData = [
-    { id: 1, img: '/images/WhatsApp Image 2026-05-29 at 19.56.40 (1).jpeg', title: 'Lavatório Esculpido', tag: 'Instalação', category: 'instalacao' },
+    { id: 1, img: '/images/WhatsApp Image 2026-05-31 at 19.01.54.jpeg', title: 'Lavatório Esculpido', tag: 'Instalação', category: 'instalacao' },
     { id: 2, img: '/images/WhatsApp Image 2026-05-29 at 19.56.40 (3).jpeg', title: 'Cuba Gourmet Instalada', tag: 'Instalação', category: 'instalacao' },
-    { id: 3, img: '/images/WhatsApp Image 2026-05-29 at 19.56.40 (4).jpeg', title: 'Corte Perfeito de Cooktop', tag: 'Corte sob Medida', category: 'corte' },
+    { id: 3, img: '/images/WhatsApp Image 2026-05-31 at 19.03.19.jpeg', title: 'Corte Perfeito de Cooktop', tag: 'Corte sob Medida', category: 'corte' },
     { id: 4, img: '/images/WhatsApp Image 2026-05-29 at 19.56.41 (1).jpeg', title: 'Acabamento e Polimento de Borda', tag: 'Reparos / Acabamento', category: 'reparo' },
-    { id: 5, img: '/images/WhatsApp Image 2026-05-29 at 19.56.41 (2).jpeg', title: 'Colagem e Reparo de Pia', tag: 'Reparos / Acabamento', category: 'reparo' },
+    { id: 5, img: '/images/WhatsApp Image 2026-05-31 at 19.04.29.jpeg', title: 'Colagem e Reparo de Pia', tag: 'Reparos / Acabamento', category: 'reparo' },
     { id: 6, img: '/images/WhatsApp Image 2026-05-29 at 19.56.41 (3).jpeg', title: 'Bancada Gourmet Americana', tag: 'Instalação', category: 'instalacao' },
     { id: 7, img: '/images/WhatsApp Image 2026-05-29 at 19.56.41.jpeg', title: 'Furo para Torneira Gourmet', tag: 'Corte sob Medida', category: 'corte' },
     { id: 8, img: '/images/WhatsApp Image 2026-05-29 at 19.56.42 (1).jpeg', title: 'Pia de Banheiro em Mármore', tag: 'Instalação', category: 'instalacao' },
