@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const CortesMarmore = () => {
@@ -150,7 +150,7 @@ const CortesMarmore = () => {
               </h3>
               <div className="portfolio-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }}>
                 <div className="portfolio-item shimmer-card">
-                  <img src="/images/WhatsApp Image 2026-05-29 at 19.56.40 (4).jpeg" alt="Corte preciso de nicho para cooktop em pedra" />
+                  <img src="/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33.jpeg" alt="Corte preciso de nicho para cooktop em pedra" />
                   <div className="portfolio-item-info">
                     <span className="portfolio-item-tag">Corte de Cooktop</span>
                     <h4 className="portfolio-item-title">Encaixe sob Medida</h4>
@@ -164,7 +164,7 @@ const CortesMarmore = () => {
                   </div>
                 </div>
                 <div className="portfolio-item shimmer-card">
-                  <img src="/images/WhatsApp Image 2026-05-29 at 19.56.41.jpeg" alt="Furo técnico executado sob medida na pedra" />
+                  <img src="/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33 (1).jpeg" alt="Furo técnico executado sob medida na pedra" />
                   <div className="portfolio-item-info">
                     <span className="portfolio-item-tag">Furo Técnico</span>
                     <h4 className="portfolio-item-title">Torneiras e Dosadores</h4>

@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, Compass, ShieldCheck, Award, UserCheck, CalendarCheck, Sparkles, AlertTriangle } from 'lucide-react';
+import { ArrowRight, Compass, Award, UserCheck, CalendarCheck, Sparkles, AlertTriangle } from 'lucide-react';
 
 const Home = () => {
   useEffect(() => {
@@ -100,7 +100,7 @@ const Home = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.40 (3).jpeg" alt="Instalação de bancadas de mármore JH Soluções" />
+              <img src="/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02 (1).jpeg" alt="Instalação de bancadas de mármore JH Soluções" />
             </motion.div>
             
             <motion.div
@@ -247,7 +247,7 @@ const Home = () => {
           >
             {/* Item 1 */}
             <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-31 at 19.01.54.jpeg" alt="Trabalho de marmoraria recente JH Soluções" />
+              <img src="/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02.jpeg" alt="Trabalho de marmoraria recente JH Soluções" />
               <div className="portfolio-item-info">
                 <span className="portfolio-item-tag">Instalação / Acabamento</span>
                 <h4 className="portfolio-item-title">Cuba Esculpida e Lavatório</h4>
@@ -265,7 +265,7 @@ const Home = () => {
 
             {/* Item 3 */}
             <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-31 at 19.04.29.jpeg" alt="Pia e balcão com acabamento polido" />
+              <img src="/images/reparo/WhatsApp Image 2026-06-06 at 14.18.46 (1).jpeg" alt="Pia e balcão com acabamento polido" />
               <div className="portfolio-item-info">
                 <span className="portfolio-item-tag">Reparos e Ajustes</span>
                 <h4 className="portfolio-item-title">Alinhamento de Pia Descascada</h4>
@@ -274,7 +274,7 @@ const Home = () => {
 
             {/* Item 4 */}
             <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.42 (1).jpeg" alt="Soleiras e peitoris instalados" />
+              <img src="/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02 (3).jpeg" alt="Soleiras e peitoris instalados" />
               <div className="portfolio-item-info">
                 <span className="portfolio-item-tag">Instalação</span>
                 <h4 className="portfolio-item-title">Instalação de Soleiras e Bancadas</h4>
@@ -283,7 +283,7 @@ const Home = () => {
 
             {/* Item 5 */}
             <motion.div className="portfolio-item shimmer-card" variants={itemVariants}>
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.50 (1).jpeg" alt="Corte e acabamento de cuba gourmet" />
+              <img src="/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33.jpeg" alt="Corte e acabamento de cuba gourmet" />
               <div className="portfolio-item-info">
                 <span className="portfolio-item-tag">Corte sob Medida</span>
                 <h4 className="portfolio-item-title">Instalação de Cuba Gourmet</h4>

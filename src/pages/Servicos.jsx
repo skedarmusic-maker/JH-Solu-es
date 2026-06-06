@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { AlertTriangle, Compass, CheckCircle2, Search } from 'lucide-react';
+import { AlertTriangle, CheckCircle2 } from 'lucide-react';
 
 const Servicos = () => {
   const [filter, setFilter] = useState('all');
@@ -62,18 +62,18 @@ const Servicos = () => {
 
   // Base de imagens do portfólio completo
   const portfolioData = [
-    { id: 1, img: '/images/WhatsApp Image 2026-05-31 at 19.01.54.jpeg', title: 'Lavatório Esculpido', tag: 'Instalação', category: 'instalacao' },
-    { id: 2, img: '/images/WhatsApp Image 2026-05-29 at 19.56.40 (3).jpeg', title: 'Cuba Gourmet Instalada', tag: 'Instalação', category: 'instalacao' },
+    { id: 1, img: '/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02.jpeg', title: 'Lavatório Esculpido', tag: 'Instalação', category: 'instalacao' },
+    { id: 2, img: '/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02 (1).jpeg', title: 'Cuba Gourmet Instalada', tag: 'Instalação', category: 'instalacao' },
     { id: 3, img: '/images/WhatsApp Image 2026-05-31 at 19.03.19.jpeg', title: 'Corte Perfeito de Cooktop', tag: 'Corte sob Medida', category: 'corte' },
-    { id: 4, img: '/images/WhatsApp Image 2026-05-29 at 19.56.41 (1).jpeg', title: 'Acabamento e Polimento de Borda', tag: 'Reparos / Acabamento', category: 'reparo' },
-    { id: 5, img: '/images/WhatsApp Image 2026-05-31 at 19.04.29.jpeg', title: 'Colagem e Reparo de Pia', tag: 'Reparos / Acabamento', category: 'reparo' },
-    { id: 6, img: '/images/WhatsApp Image 2026-05-29 at 19.56.41 (3).jpeg', title: 'Bancada Gourmet Americana', tag: 'Instalação', category: 'instalacao' },
-    { id: 7, img: '/images/WhatsApp Image 2026-05-29 at 19.56.41.jpeg', title: 'Furo para Torneira Gourmet', tag: 'Corte sob Medida', category: 'corte' },
-    { id: 8, img: '/images/WhatsApp Image 2026-05-29 at 19.56.42 (1).jpeg', title: 'Pia de Banheiro em Mármore', tag: 'Instalação', category: 'instalacao' },
+    { id: 4, img: '/images/reparo/WhatsApp Image 2026-06-06 at 14.18.46.jpeg', title: 'Acabamento e Polimento de Borda', tag: 'Reparos / Acabamento', category: 'reparo' },
+    { id: 5, img: '/images/reparo/WhatsApp Image 2026-06-06 at 14.18.46 (1).jpeg', title: 'Colagem e Reparo de Pia', tag: 'Reparos / Acabamento', category: 'reparo' },
+    { id: 6, img: '/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02 (2).jpeg', title: 'Bancada Gourmet Americana', tag: 'Instalação', category: 'instalacao' },
+    { id: 7, img: '/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33 (1).jpeg', title: 'Furo para Torneira Gourmet', tag: 'Corte sob Medida', category: 'corte' },
+    { id: 8, img: '/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02 (3).jpeg', title: 'Pia de Banheiro em Mármore', tag: 'Instalação', category: 'instalacao' },
     { id: 9, img: '/images/WhatsApp Image 2026-05-29 at 19.56.42.jpeg', title: 'Nivelamento de Soleira', tag: 'Instalação', category: 'instalacao' },
-    { id: 10, img: '/images/WhatsApp Image 2026-05-29 at 19.56.50 (1).jpeg', title: 'Bancada Gourmet de Cozinha', tag: 'Instalação', category: 'instalacao' },
+    { id: 10, img: '/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33.jpeg', title: 'Bancada Gourmet de Cozinha', tag: 'Instalação', category: 'instalacao' },
     { id: 11, img: '/images/WhatsApp Image 2026-05-29 at 19.56.50 (2).jpeg', title: 'Finalização de Lavabo', tag: 'Instalação', category: 'instalacao' },
-    { id: 12, img: '/images/WhatsApp Image 2026-05-29 at 19.56.50.jpeg', title: 'Ajuste de Nicho para Cooktop', tag: 'Corte sob Medida', category: 'corte' },
+    { id: 12, img: '/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33.jpeg', title: 'Ajuste de Nicho para Cooktop', tag: 'Corte sob Medida', category: 'corte' },
     { id: 13, img: '/images/WhatsApp Image 2026-05-29 at 20.00.03.jpeg', title: 'Pia de Cozinha Instalada', tag: 'Instalação', category: 'instalacao' },
     { id: 14, img: '/images/WhatsApp Image 2026-05-29 at 19.56.40.jpeg', title: 'Furo para Dispenser de Sabão', tag: 'Corte sob Medida', category: 'corte' }
   ];
@@ -170,7 +170,7 @@ const Servicos = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.42.jpeg" alt="Instalação de Bancadas de Mármore" />
+              <img src="/images/intalação/WhatsApp Image 2026-06-06 at 14.24.13.jpeg" alt="Instalação de Bancadas de Mármore" />
             </motion.div>
           </div>
         </div>
@@ -188,7 +188,7 @@ const Servicos = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.41.jpeg" alt="Cortes de precisão em granito" />
+              <img src="/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33 (1).jpeg" alt="Cortes de precisão em granito" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 30 }}
@@ -304,7 +304,7 @@ const Servicos = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src="/images/WhatsApp Image 2026-05-29 at 19.56.41 (2).jpeg" alt="Restauração e reparos em mármore" />
+              <img src="/images/reparo/WhatsApp Image 2026-06-06 at 14.18.47.jpeg" alt="Restauração e reparos em mármore" />
             </motion.div>
           </div>
         </div>
