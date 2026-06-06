@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -26,7 +25,7 @@ const Footer = () => {
               <i className="fa-brands fa-whatsapp"></i>
             </a>
             <a 
-              href="https://www.instagram.com/jhsolucoesmarmoregranito" 
+              href="https://www.instagram.com/jhsolucoesmarmoregranito/" 
               target="_blank" 
               rel="noopener noreferrer"
               style={{ color: 'var(--color-outline)', fontSize: '1.5rem' }} 

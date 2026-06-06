@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Phone, MapPin, Clock, Plus, HelpCircle } from 'lucide-react';
+import { Phone, MapPin, Clock, Plus } from 'lucide-react';
 
 const Contato = () => {
   useEffect(() => {

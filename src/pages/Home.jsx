@@ -5,22 +5,77 @@ import { ArrowRight, Compass, Award, UserCheck, CalendarCheck, Sparkles, AlertTr
 
 const Home = () => {
   useEffect(() => {
-    // Schema: WebSite + BreadcrumbList para a Home
-    const schema = {
+    // Schema: WebSite + LocalBusiness para a Home
+    const websiteSchema = {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "JH Soluções",
       "url": "https://jhsolucoesmarmoregranito.com.br",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://jhsolucoesmarmoregranito.com.br/#{search_term_string}",
+        "target": "https://jhsolucoesmarmoregranito.com.br/#/{search_term_string}",
         "query-input": "required name=search_term_string"
       }
     };
+
+    const businessSchema = {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "JH Soluções – Instalação, Corte e Reparo em Mármore e Granito",
+      "image": "https://jhsolucoesmarmoregranito.com.br/images/logo-Photoroom.png",
+      "telephone": "+5511961810709",
+      "url": "https://jhsolucoesmarmoregranito.com.br",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.4682,
+        "longitude": -46.6558
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Zona Norte de São Paulo"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Região Metropolitana de São Paulo"
+        }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "13:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/jhsolucoesmarmoregranito/"
+      ]
+    };
+
     const script = document.createElement('script');
     script.type = 'application/ld+json';
     script.id = 'home-schema';
-    script.innerHTML = JSON.stringify(schema);
+    script.innerHTML = JSON.stringify([websiteSchema, businessSchema]);
     document.head.appendChild(script);
     return () => { document.getElementById('home-schema')?.remove(); };
   }, []);

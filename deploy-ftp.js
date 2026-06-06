@@ -11,7 +11,7 @@ async function upload() {
     try {
         await client.access({
             host: "147.93.14.87",
-            user: "u786839041.olivedrab-flamingo-236004.hostingersite.com",
+            user: "u786839041.Jhsite",
             password: "1q2w3e4r@@@SK",
             port: 21,
             secure: false
@@ -21,7 +21,7 @@ async function upload() {
         
         // Caminho local da pasta dist
         const localFolder = path.join(__dirname, 'dist');
-        // Subindo direto na raiz `/` deste usuário FTP
+        // Subindo direto na raiz `/` deste usuário FTP (que já está chrooted no public_html)
         const remoteFolder = "/";
         
         console.log(`Iniciando upload de ${localFolder} para ${remoteFolder}...`);
