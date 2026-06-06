@@ -155,7 +155,7 @@ const Home = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src="/images/intalação/WhatsApp Image 2026-06-06 at 14.24.02 (1).jpeg" alt="Instalação de bancadas de mármore JH Soluções" />
+              <img src="/images/WhatsApp Image 2026-06-06 at 18.11.29.jpeg" alt="Instalação de bancadas de mármore JH Soluções" />
             </motion.div>
             
             <motion.div

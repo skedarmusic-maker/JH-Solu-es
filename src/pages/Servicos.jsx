@@ -170,7 +170,7 @@ const Servicos = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src="/images/intalação/WhatsApp Image 2026-06-06 at 14.24.13.jpeg" alt="Instalação de Bancadas de Mármore" />
+              <img src="/images/WhatsApp Image 2026-06-06 at 18.17.06.jpeg" alt="Instalação de Bancadas de Mármore" />
             </motion.div>
           </div>
         </div>
@@ -188,7 +188,7 @@ const Servicos = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <img src="/images/cort sob medidas/WhatsApp Image 2026-06-06 at 14.03.33 (1).jpeg" alt="Cortes de precisão em granito" />
+              <img src="/images/WhatsApp Image 2026-05-31 at 19.04.29.jpeg" alt="Cortes de precisão em granito" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 30 }}
