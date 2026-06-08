@@ -11,12 +11,12 @@ const Servicos = () => {
     const schema = {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      "name": "Serviços de M\u00e1rmore e Granito – JH Solu\u00e7\u00f5es",
-      "url": "https://jhsolucoesmarmoregranito.com.br/#/servicos",
+      "name": "Serviços de Mármore e Granito – JH Soluções",
+      "url": "https://jhsolucoesmarmoregranitozn.com.br/servicos",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Instala\u00e7\u00e3o de Pias em M\u00e1rmore e Granito", "url": "https://jhsolucoesmarmoregranito.com.br/#/instalacao-de-pias-em-marmore-e-granito" },
-        { "@type": "ListItem", "position": 2, "name": "Cortes sob Medida em M\u00e1rmore e Granito", "url": "https://jhsolucoesmarmoregranito.com.br/#/cortes-sob-medida-marmore-e-granito" },
-        { "@type": "ListItem", "position": 3, "name": "Reparo e Restaura\u00e7\u00e3o de M\u00e1rmore e Granito", "url": "https://jhsolucoesmarmoregranito.com.br/#/reparo-e-restauracao-de-marmores" }
+        { "@type": "ListItem", "position": 1, "name": "Instalação de Pias em Mármore e Granito", "url": "https://jhsolucoesmarmoregranitozn.com.br/instalacao-de-pias-em-marmore-e-granito" },
+        { "@type": "ListItem", "position": 2, "name": "Cortes sob Medida em Mármore e Granito", "url": "https://jhsolucoesmarmoregranitozn.com.br/cortes-sob-medida-marmore-e-granito" },
+        { "@type": "ListItem", "position": 3, "name": "Reparo e Restauração de Mármore e Granito", "url": "https://jhsolucoesmarmoregranitozn.com.br/reparo-e-restauracao-de-marmores" }
       ]
     };
     const script = document.createElement('script');

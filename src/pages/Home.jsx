@@ -10,10 +10,10 @@ const Home = () => {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "JH Soluções",
-      "url": "https://jhsolucoesmarmoregranito.com.br",
+      "url": "https://jhsolucoesmarmoregranitozn.com.br",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://jhsolucoesmarmoregranito.com.br/#/{search_term_string}",
+        "target": "https://jhsolucoesmarmoregranitozn.com.br/{search_term_string}",
         "query-input": "required name=search_term_string"
       }
     };
@@ -22,9 +22,9 @@ const Home = () => {
       "@context": "https://schema.org",
       "@type": "HomeAndConstructionBusiness",
       "name": "JH Soluções – Instalação, Corte e Reparo em Mármore e Granito",
-      "image": "https://jhsolucoesmarmoregranito.com.br/images/logo-Photoroom.png",
+      "image": "https://jhsolucoesmarmoregranitozn.com.br/images/logo-Photoroom.png",
       "telephone": "+5511961810709",
-      "url": "https://jhsolucoesmarmoregranito.com.br",
+      "url": "https://jhsolucoesmarmoregranitozn.com.br",
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",

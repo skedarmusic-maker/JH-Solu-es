@@ -12,7 +12,7 @@ const CortesMarmore = () => {
       "provider": {
         "@type": "LocalBusiness",
         "name": "JH Soluções",
-        "image": "https://jhsolucoesmarmoregranito.com.br/images/logo-Photoroom.png",
+        "image": "https://jhsolucoesmarmoregranitozn.com.br/images/logo-Photoroom.png",
         "telephone": "+5511961810709",
         "priceRange": "$$",
         "address": {

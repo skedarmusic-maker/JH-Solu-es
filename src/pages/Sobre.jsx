@@ -9,7 +9,7 @@ const Sobre = () => {
       "@context": "https://schema.org",
       "@type": "AboutPage",
       "name": "Sobre a JH Soluções",
-      "url": "https://jhsolucoesmarmoregranito.com.br/#/sobre",
+      "url": "https://jhsolucoesmarmoregranitozn.com.br/sobre",
       "description": "Conheça a JH Soluções, especialistas em instalação, corte e reparo em mármore e granito na Zona Norte de São Paulo há mais de 10 anos.",
       "mainEntity": {
         "@type": "LocalBusiness",
